@@ -3,10 +3,10 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://eliaszpiotr.github.io'),
-  title: 'Eliasz Piotr — Computer Science Portfolio',
+  title: 'Eliasz Piotr Portfolio',
   description: 'Computer Science graduate building practical, data-driven software with Python.',
   openGraph: {
-    title: 'Eliasz Piotr — Computer Science Portfolio',
+    title: 'Eliasz Piotr Portfolio',
     description: 'Computer Science graduate building practical, data-driven software with Python.',
     url: 'https://eliaszpiotr.github.io',
     siteName: 'Eliasz Piotr',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eliasz Piotr — Computer Science Portfolio',
+    title: 'Eliasz Piotr Portfolio',
     description: 'Computer Science graduate building practical, data-driven software with Python.',
     images: ['/og.png'],
   },

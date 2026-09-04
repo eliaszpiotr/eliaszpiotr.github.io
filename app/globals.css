@@ -57,7 +57,7 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(51px, 6.2vw, 82px); line-heig
 .button.primary { background: var(--ink); border-color: var(--ink); color: white; }
 .button:hover { transform: translateY(-1px); box-shadow: 0 5px 16px rgb(32 32 30 / 8%); }
 .portrait { margin: 0; overflow: hidden; background: white; border: 1px solid var(--line); border-radius: 10px; transform: rotate(1deg); box-shadow: 0 18px 45px rgb(44 42 37 / 10%); }
-.portrait img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 61%; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 61%; }
 .portrait figcaption { padding: 13px 15px 14px; font-size: 12px; }
 .portrait figcaption span { display: block; margin-bottom: 3px; color: #9a968e; font: 8px var(--font-mono); text-transform: uppercase; letter-spacing: .1em; }
 .quick-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 70px; overflow: hidden; border: 1px solid var(--line); border-radius: 9px; background: var(--line); }
